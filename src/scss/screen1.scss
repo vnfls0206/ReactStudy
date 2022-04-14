@@ -1,0 +1,95 @@
+
+
+.Screen1{
+    width: auto;
+    margin-left: 0.2vw;
+    margin-right: auto;
+    margin-top: 1vh;
+
+
+    overflow: hidden;
+
+
+    .main-index{
+        display: flex;
+        flex-direction: row;
+
+
+        width: 100vw;
+        height: 4vh;
+
+        background-color: #22b8cf;
+
+        /*border-style: solid;
+        border-width: 1px;
+        border-bottom-width: 3px;
+        border-right-width: 3px;*/
+
+
+        .content{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+
+            /*
+            &:last-child{
+                background-color: #b4b9db;
+            }*/
+
+            width: 5vw;
+            height: 100%;
+
+            background: none;
+
+            &:first-child{
+                margin-left: 1vw;
+            }
+
+
+            &:hover{
+                background-color: #25a0b1;
+            }
+
+            .small-index{
+                position: absolute;
+                margin-top: 6vh;
+
+                .dd{
+                    display: flex;
+                }
+
+            }
+
+        }
+    }
+
+    .main-index-bottom{
+        width: 100vw;
+        height: 2vh;
+
+        background-color: #dbdbdb;
+
+
+        .index {
+            background-color: black;
+            width: 80px;
+            height: auto;
+            &.array0 {
+                margin-left: 1vw;
+            }
+            &.array1 {
+                margin-left: 6vw;
+            }
+            &.array2 {
+                margin-left: 11vw;
+            }
+            &.array3 {
+                margin-left: 16vw;
+            }
+        }
+
+    }
+
+
+}
