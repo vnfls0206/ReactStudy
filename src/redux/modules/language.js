@@ -3,12 +3,11 @@ import {LANGUAGETYPE} from "../../language/languageType";
 
 const SET_LANGUAGE = "language/SET_LANGUAGE";
 
-export const setLanguage =  createAction(SET_LANGUAGE);
+export const setLanguage = createAction(SET_LANGUAGE);
 
 const initialState = {
     language: LANGUAGETYPE.KOREAN,
 }
-
 
 
 const language = handleActions({
@@ -19,7 +18,6 @@ const language = handleActions({
     },
     initialState
 );
-
 
 
 export default language;
